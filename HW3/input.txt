@@ -1,0 +1,8 @@
+PP(A,B)
+6
+AA(x,CC)&BB(x,DD)=>PP(A,B)
+BB(x,DD)&CC(LL,FF)=>WW(x)
+BB(LL,DD)
+SS(x,FF)=>CC(x,FF)
+SS(UU,FF)
+AA(LL,CC)

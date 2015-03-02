@@ -1,0 +1,18 @@
+CS 561 HW2
+Slyar
+Language:C++
+Agent.cpp
+
+For the alpha-beta part, I am not sure when to change the value of Alpha/Beta, such as
+
+-I set “if (value > alpha && value < beta)” to change the value of Alpha
+
+	And this could be “if (value > alpha && value < beta)”
+
+-I set “if (value < beta && value > alpha)” to change the value of Beta
+
+	And this could be “if (value > alpha && value > alpha)”
+
+So if I get a lot of wrong answers for alpha-beta test, it may be caused by this. Please consider this situation.
+
+Thank you!

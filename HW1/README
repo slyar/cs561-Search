@@ -1,0 +1,21 @@
+CS 561 HW1
+Slyar
+Language:C++
+Agent.cpp
+
+
+1. If there is no path available, this code will print the log at first line, and "NoPathAvailable" at the second line, then follow by a 0 at the third line.
+
+(Log)
+NoPathAvailable
+0
+
+2. When some child has a better cost than previously visited, I enqueue this child again and revisit it. And finally I output full expansion log which may occur two or more same nodes in the log sequence.
+
+eg. In some DFS result:
+
+ae-ab-aa-ad-ac-ad-af
+ae-af
+5
+
+I output ad twice because ad has been enqueued twice.
